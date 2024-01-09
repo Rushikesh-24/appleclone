@@ -2,26 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+#vision{
+  background-image: url('/asset/vision.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+#hero{
+  background-image: url('/asset/iphonehero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+#iphone{
+  background-image: url('/asset/iphone15blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#watch{
+  background-image: url('/asset/watch.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#grid{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr); 
+  gap: 10px;
+}
+#ultraWatch{
+  background-image: url('/asset/watch1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+#series9{
+  background-image: url('/asset/9series.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+#Mac{
+  background-image: url('/asset/macbook.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+#fitness{
+  background-image: url('/asset/fitness.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+#card{
+  background-image: url('/asset/card.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+#trade{
+  background-image: url('/asset/trade.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
 }
