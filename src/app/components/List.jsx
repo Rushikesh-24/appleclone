@@ -4,7 +4,7 @@ import React from 'react'
 const List = () => {
   return (
     <>
-    <div id='grid' className='w-screen p-6'>
+    <div id='grid' className='w-screen p-6 grid-cols-1 md:grid-cols-2 grid gap-2'>
       <div id='series9'>
         <div id="text" className='flex flex-col justify-center items-center mt-16'>
         <p className='text-white text-3xl font-semibold'> WATCH</p>

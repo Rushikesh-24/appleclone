@@ -27,11 +27,6 @@
   background-size: cover;
   background-position: 50%;
 }
-#grid{
-  display: grid;
-  grid-template-columns: repeat(2, 2fr); 
-  gap: 10px;
-}
 #ultraWatch{
   background-image: url('/asset/watch1.jpg');
   background-repeat: no-repeat;
@@ -73,4 +68,12 @@
   background-size: cover;
   background-position: 50%;
   height: 90vh;
+}
+#dropdown-container{
+  height: 145vh;
+}
+@media (max-width: 768px) {
+  #hero{
+    background-image: url('/asset/iphone15sm.jpg');
+  }
 }
